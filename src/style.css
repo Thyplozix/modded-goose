@@ -75,6 +75,10 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+
+.color-nav {
+  background-color: #0C215A !important;
+}
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;

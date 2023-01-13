@@ -6,10 +6,10 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Arts and Music",
-          "Community charity events",
-          "Unimpeded chaos and creativity",
-          "Welcome, glad you're here",
+          "arts and music",
+          "community charity events",
+          "chaos and creativity",
+          "welcome, glad you're here",
         ],
         autoStart: true,
         loop: true,
