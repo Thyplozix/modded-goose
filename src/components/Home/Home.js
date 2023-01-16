@@ -18,7 +18,6 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 WE'RE
                 <strong className="main-name"> SHOE GOOSE</strong>

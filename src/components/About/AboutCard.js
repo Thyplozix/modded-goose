@@ -7,31 +7,16 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ textAlign: "justify" }}>
+            Looking for some super cool assets for your stream or just want to rep some <strong><span className="orange">Shoe Goose </span></strong>
+            pride? Look no further. All assets have been lovingly created by <strong><span className="orange">Mama Goose. </span></strong>
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          <p className="orange">
+            "The snow goose need not bathe to make itself white. Neither need you do anything but be yourself."{" "}
+          </p>
+          <strong><footer className="blockquote-footer">Lao Tzu</footer></strong>
         </blockquote>
       </Card.Body>
     </Card>
