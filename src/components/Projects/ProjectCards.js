@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BsGithub } from "react-icons/bs";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ProjectCards(props) {
   return (
@@ -13,8 +13,8 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <FaExternalLinkAlt /> &nbsp;
+          {props.isBlog ? "Blog" : "Get The Goods"}
         </Button>
         {"\n"}
         {"\n"}

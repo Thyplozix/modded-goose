@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
-import { FaTwitch,FaHome, FaHeart, FaHandHoldingHeart } from "react-icons/fa";
+import { FaTwitch,FaHome, FaHandHoldingHeart } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

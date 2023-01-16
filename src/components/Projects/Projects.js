@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/goose.png";
+import Goose0 from "../../Assets/Projects/goose.png";
 import GooseOne from "../../Assets/Projects/goose2.gif";
 import GooseTwo from "../../Assets/Projects/goose3.gif";
 
@@ -32,19 +32,19 @@ function Projects() {
             <ProjectCard
               imgPath={GooseOne}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Basic Guides and Builders"
+              description="PLACEHOLDER"
+              ghLink="https://nerdordie.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Goose0}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"           
+              title="Events"
+              description="yet more placeholder text"
+              ghLink="https://placeit.net/"           
             />
           </Col>
         </Row>
