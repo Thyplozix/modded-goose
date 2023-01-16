@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
-import { FaTwitch,FaHome, FaHeart } from "react-icons/fa";
+import { FaTwitch,FaHome, FaHeart, FaHandHoldingHeart } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -55,8 +55,8 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <FaHeart/>{" "}
-                Stream Assets
+                <FaHandHoldingHeart/>{" "}
+                Stream Resources
               </Nav.Link>
             </Nav.Item>
 
