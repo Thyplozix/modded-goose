@@ -446,6 +446,10 @@ button:focus {
   padding: 0 !important;
 }
 
+.katelink {
+  text-decoration: none;
+}
+
 .blockquote-footer {
   color: #FFFFFF !important;
 }

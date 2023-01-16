@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -10,7 +9,7 @@ function AboutCard() {
 
           <p style={{ textAlign: "justify" }}>
             Looking for some super cool assets for your stream or just want to rep some <strong><span className="orange">Shoe Goose </span></strong>
-            pride? Look no further. All assets have been lovingly created by <strong><span className="orange">Mama Goose. </span></strong>
+            pride? Look no further. All assets have been lovingly created by <strong><a href="https://www.artbykatee.com/" className="katelink"><span className="orange">Mama </span></a>Goose.</strong>
           </p>
 
           <p className="orange">

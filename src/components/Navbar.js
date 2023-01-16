@@ -48,17 +48,7 @@ function NavBar() {
                 <FaHome /> Home
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaTwitch/> Stream Assets
-              </Nav.Link>
-            </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -66,9 +56,20 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <FaHeart/>{" "}
-                Meet The Team
+                Stream Assets
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaTwitch/> Meet The Team
+              </Nav.Link>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
