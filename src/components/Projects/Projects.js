@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Goose0 from "../../Assets/Projects/goose.png";
-import GooseOne from "../../Assets/Projects/goose2.gif";
 import GooseTwo from "../../Assets/Projects/goose3.gif";
 
 function Projects() {
