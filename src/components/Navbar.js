@@ -59,17 +59,6 @@ function NavBar() {
                 Stream Resources
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaTwitch/> Meet The Team
-              </Nav.Link>
-            </Nav.Item>
-
           </Nav>
         </Navbar.Collapse>
       </Container>

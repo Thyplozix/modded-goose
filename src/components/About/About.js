@@ -9,7 +9,6 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -23,6 +22,7 @@ function About() {
               Shoe Goose <strong className="orange">Freak Flags</strong> 
             </h1>
             <Aboutcard />
+            
           </Col>
           <Col
             md={5}

@@ -12,10 +12,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Goose Freak <strong className="orange"> Flags </strong>
+          Goose <strong className="orange"> Freak </strong> Flags
         </h1>
         <p style={{ color: "white" }}>
-          Ready for use on your platforms of choice!
+          <strong>Looking for some super cool assets for your stream or just want to rep some Shoe Goose pride? Look no further. All assets have been lovingly created by Mama Goose.</strong>
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -25,26 +25,6 @@ function Projects() {
               title="Team Assets"
               description="Bring some new silly energy to your Twitch panels, Youtube sections or emoji sets. Lovingly made by Mama Goose."
               ghLink="https://drive.google.com/drive/folders/1X6gLiCoeEJjv1n-eTED5Dn-1WoFNCYYD"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={GooseOne}
-              isBlog={false}
-              title="Basic Guides and Builders"
-              description="PLACEHOLDER"
-              ghLink="https://nerdordie.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Goose0}
-              isBlog={false}
-              title="Events"
-              description="yet more placeholder text"
-              ghLink="https://placeit.net/"           
             />
           </Col>
         </Row>
