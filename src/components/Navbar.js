@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
-import { FaTwitch, FaHome } from "react-icons/fa";
+import { FaTwitch, FaHome, FaExternalLinkAlt } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -59,6 +59,19 @@ function NavBar() {
                 Stream Resources
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://forms.gle/8m3QkV9qqG8JwGpd9"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaExternalLinkAlt/>{" "}
+                Assimilate
+              </Nav.Link>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
