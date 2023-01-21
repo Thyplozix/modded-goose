@@ -317,6 +317,22 @@ button:focus {
   justify-content: center !important;
 }
 
+.goose-logo {
+  justify-content: center !important;
+  align-self: center;
+  margin-right: 4em;
+}
+
+@media (max-width: 414px) {
+  .goose-logo{
+    margin-left: 0em;
+  }
+
+  .myAvtar {
+    visibility: collapse;
+  }
+}
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;

@@ -2,19 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ResourceCard from "./ResourceCard";
 import Particle from "../Particle";
-import GooseTwo from "../../Assets/Geese/goose3.gif";
+import GooseTwo from "../../Assets/Geese/goose.png";
 
 function Resources() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          Goose <strong className="orange"> Freak </strong> Flags
-        </h1>
-        <p style={{ color: "white" }}>
-          <strong>Looking for some super cool assets for your stream or just want to rep some Shoe Goose pride? Look no further. All assets have been lovingly created by Mama Goose.</strong>
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ResourceCard

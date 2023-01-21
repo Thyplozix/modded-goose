@@ -5,14 +5,19 @@ import {
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaDiscord, FaTwitch, FaFacebook } from "react-icons/fa";
-import goose from "../../Assets/logo3.png"
+import goose from "../../Assets/about2.png"
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+        <Col md={4} className="goose-logo">
+            <Tilt>
+              <img src={goose} className="img-fluid" alt="goose logo"/>
+            </Tilt>
+          </Col>
+          <Col md={6} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
             <span className="orange-text">THE</span> GOOSE IS LOOSE
             </h1>
@@ -29,11 +34,6 @@ function Home2() {
               With our sole purpose to soar to new heights while we learn to adapt and evolve with the ever-changing social media and streaming 
               landscapes to create an open and welcoming environment for those who share our core values of being an all-inclusive and safe space for anyone to nest.
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={goose} className="img-fluid" alt="booty shaking goose"/>
-            </Tilt>
           </Col>
         </Row>
         <Row>
