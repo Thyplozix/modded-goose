@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import ResourceCard from "./ResourceCard";
 import Particle from "../Particle";
-import GooseTwo from "../../Assets/Projects/goose3.gif";
+import GooseTwo from "../../Assets/Geese/goose3.gif";
 
-function Projects() {
+function Resources() {
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -17,7 +17,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ResourceCard
               imgPath={GooseTwo}
               isBlog={false}
               title="Team Assets"
@@ -31,4 +31,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Resources;

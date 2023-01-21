@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import goose from "../../Assets/sg3.png"
 
 function Home() {
   return (
@@ -26,6 +27,9 @@ function Home() {
                 <Type />
               </div>
             </Col>
+            <Col md={4} className="myAvtar">
+              <img src={goose} className="img-fluid" alt="avatar" />
+          </Col>
           </Row>
         </Container>
       </Container>
