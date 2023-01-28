@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
-import { FaTwitch, FaHome, FaExternalLinkAlt } from "react-icons/fa";
+import { FaTwitch, FaHome, FaExternalLinkAlt, FaAward } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -46,6 +46,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <FaHome /> Home
+              </Nav.Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link
+                href="/Team"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaAward/>
+                Meet The Team
               </Nav.Link>
             </Nav.Item>
             

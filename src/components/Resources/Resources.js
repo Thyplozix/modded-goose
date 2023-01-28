@@ -10,7 +10,7 @@ function Resources() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ResourceCard
               imgPath={GooseTwo}
               isBlog={false}
